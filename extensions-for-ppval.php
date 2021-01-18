@@ -9,7 +9,7 @@
  * that starts the plugin.
  *
  * @link              https://github.com/
- * @since             1.0
+ * @since             0.1
  * @package           extensions-for-ppval
  *
  * @wordpress-plugin
@@ -31,7 +31,7 @@
 defined ("ABSPATH") or die ("No script assholes!");
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-include_once(ABSPATH.'wp-admin/includes/plugin.php'); // bad aproach, we have to modify to something else or to delete, i do not know what´s that
+// include_once(ABSPATH.'wp-admin/includes/plugin.php'); // bad aproach, we have to modify to something else or to delete, i do not know what´s that
 
 
 
@@ -67,7 +67,6 @@ include_once(ABSPATH.'wp-admin/includes/plugin.php'); // bad aproach, we have to
  require_once dirname( __FILE__ ) . '/vendor/snippets-mu.php';
  // require_once dirname( __FILE__ ) . '/vendor/snippets-header.php';
  // require_once dirname( __FILE__ ) . '/vendor/snippets-footer.php';
- // require_once dirname( __FILE__ ) . '/vendor/shortcodes.php';
 
 
 // if(is_plugin_active('pressbooks/pressbooks.php')){
